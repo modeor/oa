@@ -1,0 +1,118 @@
+﻿/* CSS Document */
+.textShadow{
+	font-size:18px;
+	text-shadow:#000000 1px 1px 1px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.DropShadow(offx=1, offy=1, color='#000000', positive='true')"; /* IE8+ */
+	filter: progid:DXImageTransform.Microsoft.DropShadow(offx=1, offy=1, color='#aaaaaa', positive='true') /* IE and lower */
+}
+.inputline{
+	height:30px;
+	line-height:30px}
+			
+.button{
+	cursor:pointer;
+	background-image:url(../imgs/button_normal.jpg);
+	width:102px;
+	height:35px;
+	text-align:center;
+	line-height:35px
+}
+
+.newButton{
+	cursor:pointer;
+	background-image:url(../imgs/button_normal.jpg);
+	width:102px;
+	height:35px;
+	vertical-align:middle;
+	text-align:center;
+	line-height:35px
+}
+
+.textbox{border: 1px solid #779999;
+	font-size:12px;
+	color:444466;
+	height: 18px;
+	width:200px;
+	line-height: 18px}
+	
+a{
+	text-decoration: none;
+	color:#0066FF;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.myTable{  
+   table-layout:fixed;
+   border:1px solid #c4c2c2;
+}
+
+.myTable th{
+	cursor:pointer;
+	background-image:url("../imgs/table/cell02.jpg");
+	color:#ffffff;
+}
+
+.myTable th,.myTable td{
+	height:30px;
+	line-height:30px;
+	vertical-align:middle;
+    text-overflow:ellipsis; /* for IE */   
+    -moz-text-overflow: ellipsis; /* for Firefox,mozilla */   
+    overflow:hidden;
+    white-space: nowrap; 
+    text-align:center
+}
+
+.normalTable td{
+	height:30px;
+	line-height:30px;
+	vertical-align:middle;
+}
+
+.iconButton{
+	cursor:pointer;
+	width:60px;
+	height:72px
+}
+.iconImage{
+	cursor:pointer;
+	width:60px;
+	height:60px
+}
+
+/* ----------上传框样式---------- */
+.uploader_line{position:relative;
+				float:left;height:18px;
+				line-height:18px;
+				vertical-align:middle;}
+				
+.uploader_line span {float:left}
+
+.uploader {position:absolute;
+			left:0px; top:0px;
+			display:none;
+			filter:alpha(opacity=0);
+			opacity:0;
+			cursor: pointer;}
+
+.uploader_button {padding:3px 8px;
+				display:block;
+				float:left;
+				z-index:1;
+				margin-left:5px;
+				vertical-align:middle;
+				cursor: pointer;
+				background-color:#1850bd;
+				font-weight:bolder;
+				color:#ffffff;
+				height:14px;
+				line-height:14px}
+
+.uploader_text {width:145px;
+				height:18px;
+				line-height:18px;
+				border: 1px solid #779999;
+				z-index:99}
